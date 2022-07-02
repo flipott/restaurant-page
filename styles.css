@@ -1,0 +1,56 @@
+:root {
+    --columbia-blue: hsla(197, 100%, 89%, 1);
+    --azure-x-11-web-color: hsla(174, 100%, 96%, 1);
+    --cultured: hsla(240, 3%, 94%, 1);
+    --languid-lavender: hsla(295, 13%, 82%, 1);
+    --old-lavender: hsla(342, 6%, 39%, 1);
+
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+}
+
+.tab {
+    border: none;
+    font-size: 1.5rem;
+    margin: 8px 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.header {
+    background: var(--old-lavender);
+    height: 66px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero {
+    background: var(--azure-x-11-web-color);
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--languid-lavender);
+    gap: 25px;
+}
