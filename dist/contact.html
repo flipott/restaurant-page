@@ -12,8 +12,7 @@
 </head>
 <body>
     <script src="main.js"></script>
-    <div id="content">
-    <div class="container">
+    <div class="contact-container">
         <div class="header">
             <div class="logo">Matt's</div>
             <div class="tabs">
@@ -21,6 +20,21 @@
                 <button class="tab"><a href="menu.html">Menu</a></button>
                 <button class="tab"><a href="contact.html">Contact</a></button>
             </div>
+        </div>
+        <div class="contact-content">
+            <div class="title">Contact Us</div>
+            <p>Please use the form below if you would like to get in touch. You can also call us at 999-999-9999.</p>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..."><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address..."><br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Please write your message here..." style="height:200px"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </div>
 </body>
