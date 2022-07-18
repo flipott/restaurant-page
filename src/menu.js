@@ -1,3 +1,4 @@
+//Draws the menu page
 const drawMenu = (() => {
     
     const content = document.getElementById("content");
@@ -94,7 +95,6 @@ const drawMenu = (() => {
     flavors.className = "flavors";
     menuContent.appendChild(flavors);
 
-
     let flavorChart = ["Vanilla", "Chocolate", "Strawberry", "Banana", "Cookie Dough", "Mint Chocolate Chip", "Cookies and Cream",
     "Coconut", "Coffee", "Pistachio", "Neopolitan", "Peanut Butter"];
 
@@ -124,7 +124,6 @@ const drawMenu = (() => {
     const toppings = document.createElement("div");
     toppings.className = "toppings";
     menuContent.appendChild(toppings);
-
 
     let toppingChart = ["Hot Fudge", "Sprinkles", "Pretzels", "Caramel", "Oreos", "Whipped Cream", "Marshmallows", "Nuts", "Cherries", "Gummy Bears"];
 
